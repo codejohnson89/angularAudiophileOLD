@@ -1,0 +1,55 @@
+:host {
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 192.308% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+a:hover,
+a:active,
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #d87d4a;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 192.308% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+@media screen and (min-width: 991px) {
+  .navbar-brand,
+  .navbar-collapse {
+    order: -1;
+  }
+
+  .navbar-nav {
+    margin: 0 auto;
+    gap: 34px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+button {
+  order: -1;
+}
+
+.navbar-nav {
+  gap: 1rem;
+}
+}
